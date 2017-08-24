@@ -4,11 +4,13 @@ This is a node package for actum payment processing. Developer can use this pack
 
 You can install this module using npm:
 
-npm install actum-titech
+<b>npm install actum-titech</b>
+
 This will install the given package into your project. Then require this package to your project.
 
-var actum=require("actum-titech");
-1) Credit issuing
+<b>var actum=require("actum-titech");</b>
+
+1) <b>Credit issuing</b>
 
 Usage:
 
@@ -16,7 +18,7 @@ Usage:
         // res contains response data
     });
 
-Required fields are :
+<b>Required Fields are:</b>
 
      parent_id      :   Your ParentID (Alphanumeric 8)
      sub_id         :   Your SubID  (Alphanumeric 8)
@@ -31,7 +33,7 @@ Required fields are :
      billing_cycle  :   -1 = One-Time (Number)
      pmt_type       :   [chk|crd]: 'chk'=check; 'crd'= credit card
      chk_aba        :   Consumers ABA/Routing number (Alphanumeric 9)
-2) Billing Status
+2) <b>Billing Status</b>
 
 Usage:
 
@@ -39,13 +41,13 @@ Usage:
          // res contains response data
     });
 
-Required Fileds are:
+<b>Required Fields are:</b>
 
         username        : username for actom(ALPHANUMERIC)
         password        : password for actom(ALPHANUMERIC)
         action_code     :   'A'
         prev_history_id     : previous transaction Id
-3) Payment cancellation
+3) <b>Payment cancellation</b>
 
 Usage:
 
@@ -53,7 +55,7 @@ Usage:
         // res contains response data
     });
 
-Required Fields are:
+<b>Required Fields are:</b>
 
         username        : username for actom(ALPHANUMERIC)
         password        : password for actom(ALPHANUMERIC)
