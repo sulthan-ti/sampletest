@@ -1,4 +1,4 @@
-<h><b>Description<b></h>
+<h><b>Description</b></h>
 
 This is a node package for actum payment processing. Developer can use this package for credit issuing, status, cancellation, refund, revoke, etc
 
